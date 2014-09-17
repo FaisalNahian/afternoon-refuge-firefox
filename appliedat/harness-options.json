@@ -1,0 +1,102 @@
+{
+ "enable_e10s": false, 
+ "is-sdk-bundled": true, 
+ "jetpackID": "jid1-VGSrsx6eDzLfLw@jetpack", 
+ "loader": "addon-sdk/lib/sdk/loader/cuddlefish.js", 
+ "main": "main", 
+ "mainPath": "appliedat/main", 
+ "manifest": {
+  "appliedat/main": {
+   "docsSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", 
+   "jsSHA256": "ac158907e54988d1163786709758fd97b35b85ac9fc9d7125c99555605a14457", 
+   "moduleName": "main", 
+   "packageName": "appliedat", 
+   "requirements": {
+    "page-mod": "sdk/page-mod", 
+    "request": "sdk/request", 
+    "sdk/context-menu": "sdk/context-menu", 
+    "sdk/page-mod": "sdk/page-mod", 
+    "sdk/simple-storage": "sdk/simple-storage", 
+    "self": "sdk/self", 
+    "tabs": "sdk/tabs", 
+    "toolbarbutton": "toolbar-button-complete/toolbarbutton"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "toolbar-button-complete/toolbarbutton": {
+   "docsSHA256": null, 
+   "jsSHA256": "a77516fede6f8377a8e84b1ac0329791de41db93fced25b07974419268982e00", 
+   "moduleName": "toolbarbutton", 
+   "packageName": "toolbar-button-complete", 
+   "requirements": {
+    "listen": "vold-utils/listen", 
+    "sdk/private-browsing": "sdk/private-browsing", 
+    "sdk/window/utils": "sdk/window/utils", 
+    "unload+": "vold-utils/unload+", 
+    "window-utils": "sdk/deprecated/window-utils"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "vold-utils/listen": {
+   "docsSHA256": null, 
+   "jsSHA256": "74057caf6a837e6c8a3e8e73762b1bc08e69e6e087bee5401580a9249a34701c", 
+   "moduleName": "listen", 
+   "packageName": "vold-utils", 
+   "requirements": {
+    "unload+": "vold-utils/unload+"
+   }, 
+   "sectionName": "lib"
+  }, 
+  "vold-utils/unload+": {
+   "docsSHA256": null, 
+   "jsSHA256": "0cc972b1ac0ccd44801915b8e3ece122087fe72073886a759c38b857a956c058", 
+   "moduleName": "unload+", 
+   "packageName": "vold-utils", 
+   "requirements": {
+    "unload": "sdk/system/unload"
+   }, 
+   "sectionName": "lib"
+  }
+ }, 
+ "metadata": {
+  "addon-sdk": {
+   "description": "Add-on development made easy.", 
+   "keywords": [
+    "javascript", 
+    "engine", 
+    "addon", 
+    "extension", 
+    "xulrunner", 
+    "firefox", 
+    "browser"
+   ], 
+   "license": "MPL 2.0", 
+   "name": "addon-sdk"
+  }, 
+  "appliedat": {
+   "author": "Sohan Chotia", 
+   "description": "A job listing organizer. Save job listing with one click to Appliedat.com online service.", 
+   "license": "MPL 2.0", 
+   "main": "main", 
+   "name": "appliedat", 
+   "version": "1.0"
+  }, 
+  "toolbar-button-complete": {
+   "author": "user213", 
+   "description": "Creates a Toolbar Addon Button with optional popupmenu.\n\n  Supports  submenus, and these menu-item attributes: id, label, disabled, type, tooltiptext, image, onCommand, and onCommandObject.  \nPosition is NOT persistent. \n  Expands on Erik Vold&#39;s Toolbar Button code.", 
+   "main": "lib/index", 
+   "name": "toolbar-button-complete", 
+   "version": "0.94"
+  }, 
+  "vold-utils": {
+   "author": "erikvold", 
+   "main": "lib/index", 
+   "name": "vold-utils", 
+   "version": "v1.3"
+  }
+ }, 
+ "name": "appliedat", 
+ "sdkVersion": "1.14", 
+ "staticArgs": {}, 
+ "verbose": false
+}
